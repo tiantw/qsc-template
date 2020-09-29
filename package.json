@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "demo",
+  "productName": "Demo",
+  "description": "A Demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node build/dev.js",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "author": {
+    "name": "yuyang",
+    "email": "yuyangvi@gmail.com"
+  },
+  "dependencies": {
+    "alife-logger": "^1.8.20",
+    "axios": "^0.20.0",
+    "dayjs": "^1.8.36",
+    "lib-flexible": "^0.3.2",
+    "poi": "^12.10.2",
+    "sa-sdk-javascript": "^1.15.20",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.9.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "poi-preset-bundle-report": "^2.0.2",
+    "postcss": "^8.0.8",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2"
+  }
+}

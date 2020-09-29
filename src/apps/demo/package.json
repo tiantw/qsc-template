@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development pwd|awk -F/ '{print $NF}'|cd ../../../; node build/dev.js"
+  }
+}
